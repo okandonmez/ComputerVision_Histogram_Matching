@@ -1,6 +1,6 @@
-# Project Title
+# Introduction to Image Processing and Histogram Matching
 
-One Paragraph of project description goes here
+This project aims to read the segmented image and observe the effects in the source image in part1. Part2 and 3 include histogram matching for different scenarios.
 
 ## Getting Started
 
@@ -11,24 +11,17 @@ These instructions will get you a copy of the project up and running on your loc
 What things you need to install the software and how to install them
 
 ```
-Give examples
+import cv2
+import glob
+from moviepy.editor import *
+import os
+import copy
+import numpy as np
+from PIL import Image
+from moviepy.video.io.ImageSequenceClip import ImageSequenceClip
 ```
 
 ### Installing
-
-A step by step series of examples that tell you how to get a development env running
-
-Say what the step will be
-
-```
-Give the example
-```
-
-And repeat
-
-```
-until finished
-```
 
 End with an example of getting some data out of the system or using it for a little demo
 
@@ -72,16 +65,10 @@ We use [SemVer](http://semver.org/) for versioning. For the versions available, 
 
 ## Authors
 
-* **Billie Thompson** - *Initial work* - [PurpleBooth](https://github.com/PurpleBooth)
-
-See also the list of [contributors](https://github.com/your/project/contributors) who participated in this project.
+* **Okan Dönmez** - *Initial work*
 
 ## License
 
 This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
 
 ## Acknowledgments
-
-* Hat tip to anyone whose code was used
-* Inspiration
-* etc
