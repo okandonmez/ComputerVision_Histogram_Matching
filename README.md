@@ -21,11 +21,11 @@ from PIL import Image
 from moviepy.video.io.ImageSequenceClip import ImageSequenceClip
 ```
 
-### Part1
+### Part1 and Results
 
-## Part2
+### Part2 and Results
 
-### Part3
+### Part3 and Results
 
 
 ```
@@ -38,10 +38,6 @@ Give an example
 ```
 Give an example
 ```
-
-## Deployment
-
-Add additional notes about how to deploy this on a live system
 
 ## Built With
 
