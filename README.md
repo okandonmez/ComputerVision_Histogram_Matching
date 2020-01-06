@@ -1,4 +1,4 @@
-# ITU_Computer_Vision_Histogram_Matching
+Computer_Vision_Histogram_Matching
 
 What is Histogram Matching ?
 
